@@ -1,115 +1,132 @@
 /*In the name of kindly generous ALLAH
 Thanks ALLAH*/
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-body 
-{
-    background-color:black;
+
+body {
+    background-color: black;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select:none;
-    -webkit-user-select:none;
+    user-select: none;
+    -webkit-user-select: none;
 
 }
 
-table{
-    position:absolute;
-    width:90vw;
-    height:90vw;
-    top:calc(50% - 45vw);
-    left:calc(50% - 45vw);
+table {
+    position: absolute;
+    width: 90vw;
+    height: 90vw;
+    top: calc(50% - 45vw);
+    left: calc(50% - 45vw);
 }
-td{
+
+td {
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select:none;
-    -webkit-user-select:none;
-    min-width:40px;
-    min-height:40px;
-    font-family:'varela round',cursive;
-    vertical-align:middle;
-    font-weight:100;
-    font-size:40px;
-    text-align:center;
-    color:#18ffff;
-    background-color:transparent;
-    border:solid 8px #18ffff;
-    border-radius:20px;
-    filter:drop-shadow(0 0 12px #76ffff);
-    transition:border-radius 1s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    min-width: 40px;
+    min-height: 40px;
+    font-family: 'varela round', cursive;
+    vertical-align: middle;
+    font-weight: 100;
+    font-size: 40px;
+    text-align: center;
+    color: #18ffff;
+    background-color: transparent;
+    border: solid 8px #18ffff;
+    border-radius: 20px;
+    filter: drop-shadow(0 0 12px #76ffff);
+    transition: border-radius 1s ease-in-out;
 
 }
 
-.class_x{
-    color:#ff6090;
-    text-shadow:0 0 10px #e91e63;
-}
-.class_y{
-    color:#64dd17;
-    text-shadow:0 0 10px #1faa00; 
-}
-.class_no{
-    color:#18ffff;
-    text-shadow:0 0 10px #76ffff;
-}
-.winlayout{
-    display:none;
-    text-align:center;
-    font-family:'varela round',cursive;
-    position:fixed;
-    z-index:2;
-    height:100px;
-    width:70%;
-  left:15%;top:calc(50% - 50px);
-  background-color:rgba(0,0,0,.3);
-    border-radius:20px;
-    box-shadow:0 0 10px #151515,0 0 30px #151515,0 0 200px #151515,0 0 200px #151515,0 0 200px #151515;
-    backdrop-filter:blur(5px);
-    -webkit-backdrop-filter:blur(5px);
-}
-.winlayout p{
-   
-    display:block;
-   color:#18ffff;
-    font-size:30px;
-    
+.class_x {
+    color: #ff6090;
+    text-shadow: 0 0 10px #e91e63;
 }
 
-.trylayout{
-    display:block;
-    text-align:center;
-    font-family:'varela round',cursive;
-    position:fixed;
-    z-index:2;
-    height:100px;
-    width:90vw;
-  left:calc(50% - 45vw - 8px);
-  bottom:-120px;
-  background-color:rgba(0,0,0,.3);
-    box-shadow:0 0 10px #151515,0 0 30px #151515,0 0 200px #151515,0 0 200px #151515,0 0 200px #151515;
-    backdrop-filter:blur(5px);
-    -webkit-backdrop-filter:blur(5px);
-        border:solid 8px #18ffff;
-        border-width:8px 5px;
-    border-top-left-radius:40px 35px;
-    border-top-right-radius:40px 35px;
-    transition:bottom 200ms ease-in;
+.class_y {
+    color: #64dd17;
+    text-shadow: 0 0 10px #1faa00;
 }
-.trylayout p{
-   
-    display:block;
-   color:#18ffff;
-    font-size:30px;
-    
+
+.class_no {
+    color: #18ffff;
+    text-shadow: 0 0 10px #76ffff;
+}
+
+.winlayout {
+    display: none;
+    text-align: center;
+    font-family: 'varela round', cursive;
+    position: fixed;
+    z-index: 2;
+    height: 100px;
+    width: 70%;
+    left: 15%;
+    top: calc(50% - 50px);
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 20px;
+    box-shadow: 0 0 10px #151515, 0 0 30px #151515, 0 0 200px #151515, 0 0 200px #151515, 0 0 200px #151515;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.winlayout p {
+
+    display: block;
+    color: #18ffff;
+    font-size: 30px;
+
+}
+
+.trylayout {
+    display: block;
+    text-align: center;
+    font-family: 'varela round', cursive;
+    position: fixed;
+    z-index: 2;
+    height: 100px;
+    width: 90vw;
+    left: calc(50% - 45vw - 8px);
+    bottom: -120px;
+    background-color: rgba(0, 0, 0, .3);
+    box-shadow: 0 0 10px #151515, 0 0 30px #151515, 0 0 200px #151515, 0 0 200px #151515, 0 0 200px #151515;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: solid 8px #18ffff;
+    border-width: 8px 5px;
+    border-top-left-radius: 40px 35px;
+    border-top-right-radius: 40px 35px;
+    transition: bottom 200ms ease-in;
+}
+
+.trylayout p {
+
+    display: block;
+    color: #18ffff;
+    font-size: 30px;
+
 }
 
 
 
-@keyframes round_anim{
-from{border-radius:20px;}
-100%{border-radius:200px;}
-}
-@keyframes turn_anim{
-from{translate:rotate(0deg);}
-to{translate:rotate(360deg);}
+@keyframes round_anim {
+    from {
+        border-radius: 20px;
+    }
+
+    100% {
+        border-radius: 200px;
+    }
 }
 
+@keyframes turn_anim {
+    from {
+        translate: rotate(0deg);
+    }
+
+    to {
+        translate: rotate(360deg);
+    }
+}
